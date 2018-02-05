@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ShieldsNShaterbolts.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UE4_UWP\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterbolts.cpp.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterboltsGameMode.cpp.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterboltsPawn.cpp.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterboltsProjectile.cpp.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterbolts.init.gen.cpp.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterboltsGameMode.gen.cpp.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterboltsPawn.gen.cpp.obj"
+"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts\ShieldsNShaterboltsProjectile.gen.cpp.obj"
+"C:\UE4_UWP\Engine\Intermediate\Build\Win64\UE4Editor\Development\PCLaunch.rc.res"
+"C:\UE4_UWP\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ShieldsNShaterbolts.lib"

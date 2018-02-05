@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ShieldsNShaterbolts.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D1D78B7E-4CA0-4B03-B583-9FFFA0CE9D23}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ShieldsNShaterbolts.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ShieldsNShaterboltsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{ECB3CF4E-FE0C-4D70-97A6-EA76506188D9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ShieldsNShaterbolts">
+			<UniqueIdentifier>{0B96F333-0824-4491-844B-AFA59C154954}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterbolts.Build.cs">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterbolts.cpp">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterbolts.h">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterboltsGameMode.cpp">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterboltsGameMode.h">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterboltsPawn.cpp">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterboltsPawn.h">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterboltsProjectile.cpp">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ShieldsNShaterbolts\ShieldsNShaterboltsProjectile.h">
+			<Filter>Source\ShieldsNShaterbolts</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

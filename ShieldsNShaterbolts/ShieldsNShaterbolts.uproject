@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{13AF32EF-4339-18E6-C156-5CB0D8B2BDE3}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ShieldsNShaterbolts",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

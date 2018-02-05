@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP64_Debug_Program|Win32">
+			<Configuration>UWP64_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP64_Debug_Program|x64">
+			<Configuration>UWP64_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP32_Debug_Program|Win32">
+			<Configuration>UWP32_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP32_Debug_Program|x64">
+			<Configuration>UWP32_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP64_Development_Program|Win32">
+			<Configuration>UWP64_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP64_Development_Program|x64">
+			<Configuration>UWP64_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP32_Development_Program|Win32">
+			<Configuration>UWP32_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="UWP32_Development_Program|x64">
+			<Configuration>UWP32_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{82B973A7-7F0E-4ED2-BD81-270FA9398180}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>SlateViewer</RootNamespace>
+		<PlatformToolset>v141</PlatformToolset>
+		<MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+		<TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\Win32\SlateViewer-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\Win64\SlateViewer-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\UWP64\SlateViewer-UWP64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\UWP32\SlateViewer-UWP32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\Mac\SlateViewer-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\HTML5\SlateViewer-HTML5-Debug.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\Win32\SlateViewer.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\Win64\SlateViewer.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\UWP64\SlateViewer.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\UWP32\SlateViewer.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer Mac Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer Mac Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\Mac\SlateViewer</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Build.bat SlateViewer HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Rebuild.bat SlateViewer HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UE4_UWP\Engine\Build\BatchFiles\Clean.bat SlateViewer HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UE4_UWP\Engine\Binaries\HTML5\SlateViewer.js</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\SlateViewer.Target.cs" />
+		<None Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\SlateViewer.Build.cs" />
+		<ClCompile Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Private\SlateViewerApp.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Private\IOS\IOSSlateViewerMain.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Private\Linux\SlateViewerMainLinux.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Private\Mac\SlateViewerMainMac.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Private\Windows\SlateViewerMainWindows.cpp" />
+		<ClInclude Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Public\SlateViewer.h" />
+		<ClInclude Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Public\SlateViewerApp.h" />
+		<Manifest Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Resources\Windows\Debug-PCLaunch-Win32.manifest" />
+		<Manifest Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Resources\Windows\Debug-PCLaunch-Win64.manifest" />
+		<Manifest Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch-Win32.manifest" />
+		<Manifest Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch-Win64.manifest" />
+		<ResourceCompile Include="..\..\..\..\..\..\..\UE4_UWP\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch.rc" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="SlateViewer-SlateViewer.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;SLATEVIEWER_API=;APPFRAMEWORK_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;APPLICATIONCORE_API=;RHI_API=;SLATE_API=;INPUTCORE_API=;JSON_API=;SLATE_DEFERRED_DESIRED_SIZE=0;WITH_FREETYPE=1;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;STANDALONERENDERER_API=;SOURCECODEACCESS_API=;SETTINGS_API=;WEBBROWSER_API=;VSACCESSOR_HAS_DTE=1;VISUALSTUDIOSOURCECODEACCESS_API=;SLATE_REFLECTOR_HAS_SESSION_SERVICES=0;SLATE_REFLECTOR_HAS_DESKTOP_PLATFORM=1;SLATEREFLECTOR_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\UE4_UWP\Engine\Source;C:\UE4_UWP\Engine\Source\Runtime\Launch\Private;C:\UE4_UWP\Engine\Source\Runtime\Launch\Public;C:\UE4_UWP\Engine\Source\Programs\SlateViewer\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\SlateViewer;C:\UE4_UWP\Engine\Source\Programs\SlateViewer;C:\UE4_UWP\Engine\Source\Runtime\AppFramework\Public;C:\UE4_UWP\Engine\Source\Runtime\AppFramework\Public\Widgets;C:\UE4_UWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Colors;C:\UE4_UWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Testing;C:\UE4_UWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Views;C:\UE4_UWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Workflow;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\AppFramework;C:\UE4_UWP\Engine\Source\Runtime\AppFramework;C:\UE4_UWP\Engine\Source\Runtime\Core\Public;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Internationalization;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Async;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Concurrency;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Containers;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Delegates;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\HAL;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Logging;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Math;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Misc;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Modules;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Serialization;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Stats;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Templates;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\UObject;C:\UE4_UWP\Engine\Source\Runtime\Core\Public\Windows;C:\UE4_UWP\Engine\Source\Runtime\Core;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject\Public;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject\Public\Internationalization;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\CoreUObject;C:\UE4_UWP\Engine\Source\Runtime\CoreUObject;C:\UE4_UWP\Engine\Source\Runtime\ApplicationCore\Public;C:\UE4_UWP\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\UE4_UWP\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\UE4_UWP\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\ApplicationCore;C:\UE4_UWP\Engine\Source\Runtime\ApplicationCore;C:\UE4_UWP\Engine\Source\Runtime\RHI\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\RHI;C:\UE4_UWP\Engine\Source\Runtime\RHI;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Application;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Commands;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Docking;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Layout;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\MetaData;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Notifications;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Styling;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Text;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Framework\Views;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Colors;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Docking;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Images;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Input;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Layout;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Text;C:\UE4_UWP\Engine\Source\Runtime\Slate\Public\Widgets\Views;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\Slate;C:\UE4_UWP\Engine\Source\Runtime\Slate;C:\UE4_UWP\Engine\Source\Runtime\InputCore\Classes;C:\UE4_UWP\Engine\Source\Runtime\InputCore\Public;C:\UE4_UWP\Engine\Source\Runtime\InputCore\Public\GenericPlatform;C:\UE4_UWP\Engine\Source\Runtime\InputCore\Public\HAL;C:\UE4_UWP\Engine\Source\Runtime\InputCore\Public\Windows;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\InputCore;C:\UE4_UWP\Engine\Source\Runtime\InputCore;C:\UE4_UWP\Engine\Source\Runtime\Json\Public;C:\UE4_UWP\Engine\Source\Runtime\Json\Public\Dom;C:\UE4_UWP\Engine\Source\Runtime\Json\Public\Policies;C:\UE4_UWP\Engine\Source\Runtime\Json\Public\Serialization;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\Json;C:\UE4_UWP\Engine\Source\Runtime\Json;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Animation;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Application;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Brushes;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Fonts;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Input;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Layout;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Logging;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Rendering;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Sound;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Stats;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Styling;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Textures;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Types;C:\UE4_UWP\Engine\Source\Runtime\SlateCore\Public\Widgets;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\SlateCore;C:\UE4_UWP\Engine\Source\Runtime\SlateCore;C:\UE4_UWP\Engine\Source\Runtime\ImageWrapper\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\ImageWrapper;C:\UE4_UWP\Engine\Source\Runtime\ImageWrapper;C:\UE4_UWP\Engine\Source\Runtime\Projects\Public;C:\UE4_UWP\Engine\Source\Runtime\Projects\Public\Interfaces;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\Projects;C:\UE4_UWP\Engine\Source\Runtime\Projects;C:\UE4_UWP\Engine\Source\Developer\StandaloneRenderer\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\StandaloneRenderer;C:\UE4_UWP\Engine\Source\Developer\StandaloneRenderer;C:\UE4_UWP\Engine\Source\Developer\SourceCodeAccess\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\SourceCodeAccess;C:\UE4_UWP\Engine\Source\Developer\SourceCodeAccess;C:\UE4_UWP\Engine\Source\Developer\Settings\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\Settings;C:\UE4_UWP\Engine\Source\Developer\Settings;C:\UE4_UWP\Engine\Source\Runtime\WebBrowser\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\WebBrowser;C:\UE4_UWP\Engine\Source\Runtime\WebBrowser;C:\UE4_UWP\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Intermediate\Build\Win64\SlateViewer\Inc\VisualStudioSourceCodeAccess;C:\UE4_UWP\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Source\VisualStudioSourceCodeAccess;C:\UE4_UWP\Engine\Source\Developer\SlateReflector\Public;C:\UE4_UWP\Engine\Intermediate\Build\Win64\SlateViewer\Inc\SlateReflector;C:\UE4_UWP\Engine\Source\Developer\SlateReflector;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

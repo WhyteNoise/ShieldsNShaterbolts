@@ -1,0 +1,3 @@
+C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Source\ShieldsNShaterbolts\ShieldsNShaterbolts.Build.cs
+C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Source\ShieldsNShaterbolts.Target.cs
+C:\Users\Tech\Documents\Unreal Projects\ShieldsNShaterbolts\Source\ShieldsNShaterboltsEditor.Target.cs
