@@ -1,6 +1,0 @@
-﻿  Creating makefile for ShaderCompileWorker (no existing makefile)
-  Target is up to date
-  Copying C:\UE4_UWP\Engine\Binaries\Win64\ShaderCompileWorker.exe to C:\UE4_UWP\Engine\Binaries\Win64\XGEControlWorker.exe
-          1 file(s) copied.
-  Deploying ShaderCompileWorker Win64 Development...
-  Total build time: 3.76 seconds (NoActionsToExecute executor: 0.00 seconds)

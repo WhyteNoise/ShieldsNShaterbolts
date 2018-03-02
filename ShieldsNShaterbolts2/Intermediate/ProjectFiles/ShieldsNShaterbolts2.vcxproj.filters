@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ShieldsNShaterbolts2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{4389C91B-A396-4F28-90D8-63DD478F9A57}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ShieldsNShaterbolts2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ShieldsNShaterbolts2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A28C328F-585A-476F-A1B5-F872B62F9C34}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Config\UWP">
+			<UniqueIdentifier>{0004979B-0E06-482F-8165-02B8CE739502}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\UWP\UWPEngine.ini">
+			<Filter>Config\UWP</Filter>
+		</None >
+		<Filter Include="Source\ShieldsNShaterbolts2">
+			<UniqueIdentifier>{FA0D9453-9A19-4139-8214-B7187D00BE5F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\ShieldsNShaterbolts2\BaseCharacter.cpp">
+			<Filter>Source\ShieldsNShaterbolts2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ShieldsNShaterbolts2\BaseCharacter.h">
+			<Filter>Source\ShieldsNShaterbolts2</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\ShieldsNShaterbolts2\ShieldsNShaterbolts2.Build.cs">
+			<Filter>Source\ShieldsNShaterbolts2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ShieldsNShaterbolts2\ShieldsNShaterbolts2.cpp">
+			<Filter>Source\ShieldsNShaterbolts2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ShieldsNShaterbolts2\ShieldsNShaterbolts2.h">
+			<Filter>Source\ShieldsNShaterbolts2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ShieldsNShaterbolts2\ShieldsNShaterbolts2GameModeBase.cpp">
+			<Filter>Source\ShieldsNShaterbolts2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ShieldsNShaterbolts2\ShieldsNShaterbolts2GameModeBase.h">
+			<Filter>Source\ShieldsNShaterbolts2</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
