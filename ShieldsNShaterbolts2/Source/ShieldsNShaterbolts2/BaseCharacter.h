@@ -16,6 +16,10 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 		float Health = 100;
 
+	//Lives
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
+		int Lives = 10;
+
 	//Is Dead
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Base Character")
 		bool isDead = false;
@@ -26,6 +30,10 @@ public:
 	//Calculate Health function
 	UFUNCTION(BlueprintCallable, Category = "Base Character")
 		virtual void CalculateHealth(float delta);
+
+	//Calculate Lives function
+	UFUNCTION(BlueprintCallable, Category = "Base Character")
+		virtual void CalculateLives();
 
 #if WITH_EDITOR
 	//Editor Stuff for changing properties

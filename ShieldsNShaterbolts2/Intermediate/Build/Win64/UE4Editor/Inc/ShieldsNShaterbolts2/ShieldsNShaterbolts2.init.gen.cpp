@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeShieldsNShaterbolts2_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ShieldsNShaterbolts2",
 				PKG_CompiledIn | 0x00000000,
-				0x601D693F,
-				0xB878478F,
+				0xB2DA9ACE,
+				0x42598299,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

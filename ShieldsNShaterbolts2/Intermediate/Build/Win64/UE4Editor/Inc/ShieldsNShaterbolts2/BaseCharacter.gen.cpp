@@ -18,12 +18,14 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ShieldsNShaterbolts2();
 	SHIELDSNSHATERBOLTS2_API UFunction* Z_Construct_UFunction_ABaseCharacter_CalculateHealth();
+	SHIELDSNSHATERBOLTS2_API UFunction* Z_Construct_UFunction_ABaseCharacter_CalculateLives();
 // End Cross Module References
 	void ABaseCharacter::StaticRegisterNativesABaseCharacter()
 	{
 		UClass* Class = ABaseCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CalculateHealth", (Native)&ABaseCharacter::execCalculateHealth },
+			{ "CalculateLives", (Native)&ABaseCharacter::execCalculateLives },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -52,6 +54,23 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_ABaseCharacter_CalculateLives()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Base Character" },
+				{ "ModuleRelativePath", "BaseCharacter.h" },
+				{ "ToolTip", "Calculate Lives function" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "CalculateLives", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ABaseCharacter_NoRegister()
 	{
 		return ABaseCharacter::StaticClass();
@@ -67,6 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_ABaseCharacter_CalculateHealth, "CalculateHealth" }, // 1236241759
+				{ &Z_Construct_UFunction_ABaseCharacter_CalculateLives, "CalculateLives" }, // 3067283613
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -87,6 +107,14 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 			auto NewProp_isDead_SetBit = [](void* Obj){ ((ABaseCharacter*)Obj)->isDead = 1; };
 			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isDead = { UE4CodeGen_Private::EPropertyClass::Bool, "isDead", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000020015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_isDead_SetBit)>::SetBit, METADATA_PARAMS(NewProp_isDead_MetaData, ARRAY_COUNT(NewProp_isDead_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Lives_MetaData[] = {
+				{ "Category", "Base Character" },
+				{ "ModuleRelativePath", "BaseCharacter.h" },
+				{ "ToolTip", "Lives" },
+			};
+#endif
+			static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Lives = { UE4CodeGen_Private::EPropertyClass::Int, "Lives", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABaseCharacter, Lives), METADATA_PARAMS(NewProp_Lives_MetaData, ARRAY_COUNT(NewProp_Lives_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[] = {
 				{ "Category", "Base Character" },
 				{ "ModuleRelativePath", "BaseCharacter.h" },
@@ -96,6 +124,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health = { UE4CodeGen_Private::EPropertyClass::Float, "Health", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABaseCharacter, Health), METADATA_PARAMS(NewProp_Health_MetaData, ARRAY_COUNT(NewProp_Health_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_isDead,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Lives,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Health,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -116,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 2984029427);
+	IMPLEMENT_CLASS(ABaseCharacter, 3872368541);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/ShieldsNShaterbolts2"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

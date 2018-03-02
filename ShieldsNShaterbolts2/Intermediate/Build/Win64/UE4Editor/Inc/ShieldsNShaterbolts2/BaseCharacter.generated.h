@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define ShieldsNShaterbolts2_Source_ShieldsNShaterbolts2_BaseCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execCalculateLives) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->CalculateLives(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execCalculateHealth) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_delta); \
@@ -26,6 +34,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define ShieldsNShaterbolts2_Source_ShieldsNShaterbolts2_BaseCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCalculateLives) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->CalculateLives(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execCalculateHealth) \
 	{ \
