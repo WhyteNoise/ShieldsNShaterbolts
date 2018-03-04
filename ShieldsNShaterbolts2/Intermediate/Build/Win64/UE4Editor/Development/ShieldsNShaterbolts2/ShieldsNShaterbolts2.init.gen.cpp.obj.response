@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source
-/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts2\Source"
-/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Inc\ShieldsNShaterbolts2"
-/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts2\Source\ShieldsNShaterbolts2"
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Source"
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Inc\ShieldsNShaterbolts2"
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Source\ShieldsNShaterbolts2"
 /I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public
 /I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Internationalization
 /I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Async
@@ -362,9 +362,9 @@
 /FI"C:\Users\Robert\Downloads\UnrealUWP\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\Robert\Downloads\UnrealUWP\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Users\Robert\Downloads\UnrealUWP\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Inc\ShieldsNShaterbolts2\ShieldsNShaterbolts2.init.gen.cpp"
-/FI"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts2\Definitions.ShieldsNShaterbolts2.h"
-/Fo"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts2\ShieldsNShaterbolts2.init.gen.cpp.obj"
+"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Inc\ShieldsNShaterbolts2\ShieldsNShaterbolts2.init.gen.cpp"
+/FI"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts2\Definitions.ShieldsNShaterbolts2.h"
+/Fo"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\UE4Editor\Development\ShieldsNShaterbolts2\ShieldsNShaterbolts2.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
