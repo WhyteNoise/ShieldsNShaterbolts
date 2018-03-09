@@ -1,0 +1,348 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/source-charset:utf-8 /execution-charset:utf-8
+/Ox
+/Ot
+/Ob2
+/errorReport:prompt
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/wd4838
+/w44668
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\DerivedDataCache\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SynthBenchmark\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Private
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\AI
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\AI\Navigation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Animation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Curves
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\EdGraph
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Internationalization
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Net
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\PacketHandlers
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Performance
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Physics
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\ProfilingDebugging
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Rendering
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Slate
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\Tests
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine\Public\VisualLogger
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\Engine"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Engine
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Internationalization
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Async
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Containers
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Delegates
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\GenericPlatform
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\HAL
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Logging
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Math
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Misc
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Modules
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Modules\Boilerplate
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\ProfilingDebugging
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Serialization
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Serialization\Csv
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Stats
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Templates
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\UObject
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core\Public\Windows
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Core
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject\Public\Blueprint
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject\Public\Internationalization
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject\Public\Misc
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject\Public\Serialization
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject\Public\Templates
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject\Public\UObject
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\CoreUObject"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CoreUObject
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ApplicationCore\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ApplicationCore\Public\HAL
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ApplicationCore\Public\Windows
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ApplicationCore
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\RHI\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\RHI
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Json\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Json\Public\Dom
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Json\Public\Policies
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Json\Public\Serialization
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Json
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Animation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Application
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Brushes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Fonts
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Input
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Layout
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Logging
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Rendering
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Sound
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Stats
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Styling
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Textures
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Types
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore\Public\Widgets
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\SlateCore"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateCore
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\InputCore\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\InputCore\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\InputCore\Public\GenericPlatform
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\InputCore\Public\HAL
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\InputCore\Public\Windows
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\InputCore"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\InputCore
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Application
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Commands
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Docking
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Layout
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\MetaData
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\MultiBox
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Notifications
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Styling
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Text
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Framework\Views
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Colors
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Docking
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Images
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Input
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Layout
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Navigation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Notifications
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Text
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate\Public\Widgets\Views
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\Slate"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Slate
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ImageWrapper\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ImageWrapper
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MessagingCommon\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MessagingCommon
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Messaging\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Messaging
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\RenderCore\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\RenderCore
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ShaderCore\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ShaderCore
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UtilityShaders\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UtilityShaders
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AssetRegistry\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\AssetRegistry"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AssetRegistry
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\EngineMessages\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\EngineMessages"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\EngineMessages
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\EngineSettings\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\EngineSettings\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\EngineSettings"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\EngineSettings
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SynthBenchmark
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Renderer\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\Renderer"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Renderer
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\GameplayTags\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\GameplayTags\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\GameplayTags"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\GameplayTags
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AIModule\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AIModule\Classes
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\AIModule"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AIModule
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\GameplayTasks\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\GameplayTasks\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\GameplayTasks"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\GameplayTasks
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\DatabaseSupport\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\DatabaseSupport
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\PacketHandler"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\PacketHandlers\PacketHandler
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\HardwareSurvey\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\HardwareSurvey
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\ClothingSystemRuntimeInterface"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\ClothingSystemRuntimeInterface
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AudioMixer\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AudioMixer\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AudioMixer\Public\Components
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AudioMixer\Public\DSP
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\AudioMixer"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AudioMixer
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AppFramework\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AppFramework\Public\Widgets
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Colors
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Testing
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Views
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AppFramework\Public\Widgets\Workflow
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AppFramework
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Networking\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Networking\Public\Common
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Networking\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Networking\Public\Interfaces\Steam
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Networking
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Sockets\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Sockets
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Landscape\Classes
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Landscape\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\Landscape"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Landscape
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UMG\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UMG\Public\Animation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UMG\Public\Binding
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UMG\Public\Blueprint
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UMG\Public\Components
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UMG\Public\Slate
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\UMG"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\UMG
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Online\HTTP\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Online\HTTP\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Online\HTTP\Public\Windows
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Online\HTTP
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieScene\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieScene\Public\Compilation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieScene\Public\Evaluation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieScene\Public\Generators
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\MovieScene"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieScene
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneTracks\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneTracks\Public\Sections
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\MovieSceneTracks"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneTracks
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Projects\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Projects\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Projects
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\MaterialShaderQualitySettings"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MaterialShaderQualitySettings
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CinematicCamera\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\CinematicCamera"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\CinematicCamera
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Analytics\Analytics\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Analytics\Analytics\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Analytics\Analytics
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Analytics\AnalyticsET\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Analytics\AnalyticsET
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\Ogg
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\Vorbis\libvorbis-1.3.2\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\Vorbis
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\libOpus\opus-1.1\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\libOpus
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Navmesh\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Navmesh\Public\DebugUtils
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Navmesh\Public\Detour
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Navmesh\Public\DetourCrowd
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Navmesh\Public\DetourTileCache
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Navmesh\Public\Recast
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Navmesh
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\TargetPlatform\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\TargetPlatform\Public\Common
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\TargetPlatform\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\TargetPlatform
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\HeadMountedDisplay\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\HeadMountedDisplay"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\HeadMountedDisplay
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MRMesh\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\MRMesh"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MRMesh
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Advertising\Advertising\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Advertising\Advertising\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Advertising\Advertising
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneCapture\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneCapture\Public\Protocols
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\MovieSceneCapture"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MovieSceneCapture
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AutomationWorker\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\AutomationWorker
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\DesktopPlatform\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\DesktopPlatform
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\TaskGraph\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\TaskGraph
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\SlateReflector\Public
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\SlateReflector"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\SlateReflector
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\Localization\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\Localization\Public\Serialization
+/I "C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Inc\Localization"
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Developer\Localization
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MessagingRpc\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\MessagingRpc
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Portal\Rpc\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Portal\Rpc
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Portal\Services\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Portal\Services\Public\Account
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Portal\Services\Public\Application
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Portal\Services\Public\Package
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\Portal\Services
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateNullRenderer\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateNullRenderer\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateNullRenderer
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateRHIRenderer\Public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateRHIRenderer\Public\Interfaces
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\Runtime\SlateRHIRenderer
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PxShared\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PxShared\include\cudamanager
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PxShared\include\filebuf
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PxShared\include\foundation
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PxShared\include\pvd
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PxShared\include\task
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\cooking
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\common
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\extensions
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\geometry
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\clothing
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\nvparameterized
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\legacy
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\PhysX3
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\common\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\common\include\autogen
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\framework\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\framework\include\autogen
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\shared\general\RenderDebug\public
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\shared\general\PairFilter\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\APEX_1.4\shared\internal\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\NvCloth\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\NvCloth\extensions\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\PhysX\PxShared\src\foundation\include
+/I C:\Users\Robert\Downloads\UnrealUWP\Engine\Source\ThirdParty\Ogg\libogg-1.2.2\include
+/D_HAS_EXCEPTIONS=0
+/FI"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Development\Engine\PCH.Engine.h"
+/Yu"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Development\Engine\PCH.Engine.h"
+/Fp"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Development\Engine\PCH.Engine.h.pch"
+"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Development\Engine\Module.Engine.22_of_38.cpp"
+/Fo"C:\Users\Robert\Documents\Unreal Projects\ShieldsNShaterbolts\ShieldsNShaterbolts2\Intermediate\Build\Win64\ShieldsNShaterbolts2\Development\Engine\Module.Engine.22_of_38.cpp.obj"
+/TP
+/GR-
+/W4
